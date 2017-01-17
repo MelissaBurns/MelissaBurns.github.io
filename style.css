@@ -18,8 +18,14 @@ h4 {
 #Summary{
   color: white;
 }
+
+.jumbotron {
+  background-color: yellowgreen;
+  background-image: url(Family.jpg);
+  background-size: cover;
+}
 img {
-  width: 318px;
+  width: 118px;
   border-color: red;
   border-width: thick;
   border-style: groove;
