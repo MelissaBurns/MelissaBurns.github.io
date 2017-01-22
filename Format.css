@@ -59,10 +59,17 @@ img {
 }
 
   body
-  { padding-bottom: 70px; }
+  { padding-bottom: 70px;
+}
+
 
   li {
     list-style-type: none;
+    font-size: 16px;
+}
+
+#aboutginna {
+  font-size: 16px;
 }
 
 body {
@@ -72,32 +79,26 @@ body {
 
 #summary {
   font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
 }
 
-
-#helpfullinks {
-  border-color: #009688;
-  border-width: thick;
-  border-style: groove;
-  border-left: thick;
+#gradpic {
+  margin-top: 30px;
 }
 
-#voting {
-  height: 150px;
-  background-image: url(Vote.jpg);
-  background-repeat: no-repeat;
-  background-size:700px;
+#list1 {
+  font-size: 20px;
 }
 
-#schoolboard {
-  height: 150px;
-  background-image: url(Chalkboard.jpg);
-  background-repeat: no-repeat;
-  background-size:715px;
+#moreinfopage {
+  margin-left: 30px;
 }
 
 #button1 {
   background-color: #009688;
+  margin-top: 50px;
 }
 
 #button2 {
@@ -112,4 +113,15 @@ body {
   font-size: 25px;
   padding-top: 13px;
   padding-bottom: 25px;
+}
+
+#sidebar {
+  background-color: #673AB7;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  padding-top: 5px;
+  border-width: thick;
+  border-style: groove;
 }
